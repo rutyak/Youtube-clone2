@@ -1,0 +1,53 @@
+nav{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.middle{
+
+    display: flex;
+    align-items: center;
+
+    /* background-color: white; */
+    padding: 10px;
+}
+
+
+.middle .input, .mic{
+    display: flex;
+    align-items: stretch;
+    /* width: 100%; */
+   /* border: 1px solid; */
+   
+ 
+}
+
+.middle .input input{
+    border: none ;
+    color: white;
+    background-color: #121212;
+    width: 100%; 
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.middle .input button{
+    border: none;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+
